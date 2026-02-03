@@ -44,8 +44,8 @@ procesar_carpeta_pdf(
 ### 📂 Contexto del Proyecto
 Este proyecto nació de la necesidad de consolidar múltiples documentos PDF de aseguradoras (como Aetna y GNP) que presentaban dificultades técnicas al ser combinados mediante métodos vectoriales tradicionales. Los archivos originales contenían capas y coordenadas de visualización que causaban traslapes de información. La solución mediante "renderizado de imagen" garantiza que el resultado final sea visualmente idéntico al original, permitiendo una distribución limpia para impresión y archivo.
 
-## 🤝 Créditos
+### 🤝 Créditos
 Desarrollador: Alexander Torres Rodríguez
 Librerías: Basado en pdf2image (wrapper de Poppler) y Pillow (PIL Fork).
 
-Nota: Este script fue probado con éxito procesando reportes de seguros médicos internacionales, garantizando la legibilidad de textos pequeños y logotipos corporativos.
+## Nota: Este script fue probado con éxito procesando reportes de seguros médicos internacionales, garantizando la legibilidad de textos pequeños y logotipos corporativos.
