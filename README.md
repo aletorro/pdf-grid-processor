@@ -31,7 +31,7 @@ Descomprime la carpeta en una ubicación conocida (ej. C:\poppler).
 El script está configurado para buscar los ejecutables en la ruta:
 C:\poppler\Library\bin (donde se encuentran pdftocairo.exe, pdfinfo.exe, etc.).
 
-📝 Uso del Script
+### 📝 Uso del Script
 Simplemente apunta el script a tu carpeta de origen y define la distribución:
 
 procesar_carpeta_pdf(
@@ -41,10 +41,10 @@ procesar_carpeta_pdf(
     columnas = 2
 )
 
-📂 Contexto del Proyecto
+### 📂 Contexto del Proyecto
 Este proyecto nació de la necesidad de consolidar múltiples documentos PDF de aseguradoras (como Aetna y GNP) que presentaban dificultades técnicas al ser combinados mediante métodos vectoriales tradicionales. Los archivos originales contenían capas y coordenadas de visualización que causaban traslapes de información. La solución mediante "renderizado de imagen" garantiza que el resultado final sea visualmente idéntico al original, permitiendo una distribución limpia para impresión y archivo.
 
-🤝 Créditos
+## 🤝 Créditos
 Desarrollador: Alexander Torres Rodríguez
 Librerías: Basado en pdf2image (wrapper de Poppler) y Pillow (PIL Fork).
 
