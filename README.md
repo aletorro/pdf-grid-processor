@@ -48,4 +48,4 @@ Este proyecto nació de la necesidad de consolidar múltiples documentos PDF de 
 Desarrollador: Alexander Torres Rodríguez
 Librerías: Basado en pdf2image (wrapper de Poppler) y Pillow (PIL Fork).
 
-## Nota: Este script fue probado con éxito procesando reportes de seguros médicos internacionales, garantizando la legibilidad de textos pequeños y logotipos corporativos.
+#### Nota: Este script fue probado con éxito procesando reportes de seguros médicos internacionales, garantizando la legibilidad de textos pequeños y logotipos corporativos.
